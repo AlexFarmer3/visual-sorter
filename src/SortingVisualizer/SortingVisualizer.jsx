@@ -2,7 +2,7 @@ import React from 'react';
 import * as sortingAlgorithms from "../SortingAlgos/sortingAlgorithms.js";
 import "./SortingVisualizer.css";
 
-const ANIMATION_SPEED = 4;
+let ANIMATION_SPEED = 4;
 const COMPLETE_COLOR = "#2EB086";
 const DEFAULT_COLOR = "black";
 const COMPARE_COLOR = "#B8405E";
@@ -28,7 +28,7 @@ export default class SortingVisulizer extends React.Component {
         const array = [];
         
         // creating size and height of array, based on screen size
-        if(window.innerHeight>616){
+        if(h>616){
             for (let i = 0; i<w/17;i++){
                 array.push(getRandomIntRange(5,h*.8));
             }
@@ -37,6 +37,10 @@ export default class SortingVisulizer extends React.Component {
                 array.push(getRandomIntRange(5,h*.6));
             }
         }
+
+        if(w>300)ANIMATION_SPEED = 4;
+            else ANIMATION_SPEED = 12;
+        
 
         //setting the block colors back to black
         for(let i=0;i<this.state.array.length;i++){
