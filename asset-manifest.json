@@ -1,7 +1,7 @@
 {
   "main.css": "/visual-sorter/static/css/main.80bda5f0.chunk.css",
-  "main.js": "/visual-sorter/static/js/main.e592226d.chunk.js",
-  "main.js.map": "/visual-sorter/static/js/main.e592226d.chunk.js.map",
+  "main.js": "/visual-sorter/static/js/main.6e3c208c.chunk.js",
+  "main.js.map": "/visual-sorter/static/js/main.6e3c208c.chunk.js.map",
   "runtime~main.js": "/visual-sorter/static/js/runtime~main.2b99e081.js",
   "runtime~main.js.map": "/visual-sorter/static/js/runtime~main.2b99e081.js.map",
   "static/js/2.962529df.chunk.js": "/visual-sorter/static/js/2.962529df.chunk.js",
@@ -9,7 +9,7 @@
   "static/js/3.c70b6b5b.chunk.js": "/visual-sorter/static/js/3.c70b6b5b.chunk.js",
   "static/js/3.c70b6b5b.chunk.js.map": "/visual-sorter/static/js/3.c70b6b5b.chunk.js.map",
   "index.html": "/visual-sorter/index.html",
-  "precache-manifest.9439796a3cf47af379db17656f577a7b.js": "/visual-sorter/precache-manifest.9439796a3cf47af379db17656f577a7b.js",
+  "precache-manifest.1ce50a617180637f1856a010cd468072.js": "/visual-sorter/precache-manifest.1ce50a617180637f1856a010cd468072.js",
   "service-worker.js": "/visual-sorter/service-worker.js",
   "static/css/main.80bda5f0.chunk.css.map": "/visual-sorter/static/css/main.80bda5f0.chunk.css.map"
 }
