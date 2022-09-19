@@ -1,0 +1,59 @@
+.array-container{
+    background-color: white;
+    padding-top: 2%;
+}
+
+.array-bar{
+    background-color: "white";
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #eafaf4;
+    padding: 20px 10px;
+    float: none;
+  }
+
+  .header button {
+    background-color: #70DAB8;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 5px;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header button:hover {
+    background-color: #99E4CC;
+    color: white;
+  }
+  
+  .header button.active {
+    background-color: dodgerblue;
+    color: white;
+  }
